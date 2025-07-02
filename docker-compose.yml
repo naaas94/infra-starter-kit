@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  ml:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: infra_kit_dev
+    volumes:
+      - .:/app
+    working_dir: /app
+    env_file:
+      - .env
+    command: tail -f /dev/null 

@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Jupyter
+.ipynb_checkpoints
+
+# Data
+data/
+*.csv
+*.parquet
+
+# Docker
+*.log
+*.pid
+
+# VSCode
+.vscode/
+
+# Mac/Windows/Linux system files
+.DS_Store
+Thumbs.db
