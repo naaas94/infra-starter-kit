@@ -1,0 +1,15 @@
+# requirements.txt
+
+# Core
+pandas
+numpy
+scikit-learn
+python-dotenv
+
+# Dev
+ipython
+jupyterlab
+
+# Optional utils
+tqdm
+matplotlib
