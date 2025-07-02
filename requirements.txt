@@ -13,3 +13,9 @@ jupyterlab
 # Optional utils
 tqdm
 matplotlib
+
+# lint
+black
+isort
+flake8
+pytest
