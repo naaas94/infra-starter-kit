@@ -18,7 +18,7 @@ class DummyPrivacyClassifier:
                 "I forgot my password",
                 "Export my data please"
             ],
-            "label": [1, 0, 1, 0, 1]  # 1 = privacy request, 0 = general
+            "label": [1, 0, 1, 0, 1]  # 1 = privacy request, 0 = general #
         })
 
     def preprocess(self, df):
