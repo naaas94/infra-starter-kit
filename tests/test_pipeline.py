@@ -1,6 +1,6 @@
 # tests/test_pipeline.py
 
-from infra_kit.pipeline import DummyPrivacyClassifier
+from src.infra_kit.pipeline import DummyPrivacyClassifier
 
 def test_pipeline_runs():
     clf = DummyPrivacyClassifier()

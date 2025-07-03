@@ -1,6 +1,6 @@
 # scripts/dummy_run.py
 
-from infra_kit.pipeline import DummyPrivacyClassifier
+from src.infra_kit.pipeline import DummyPrivacyClassifier
 
 if __name__ == "__main__":
     pipeline = DummyPrivacyClassifier()
