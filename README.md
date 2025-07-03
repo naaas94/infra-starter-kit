@@ -82,16 +82,17 @@ make lint
 #### STATUS AND ROADMAP
 
 This repo is considered ready for forking or cloning.
+
 Dummy pipeline and tests included for functional validation.
 
-Next steps (optional):
-Replace dummy model with your own
-Add real config.yaml + .env
-Plug into Flyte, MLflow, or CI/CD
+- Next steps (optional):
+- Replace dummy model with your own
+- Add real config.yaml + .env
+- Plug into Flyte, MLflow, or CI/CD
 
 #### DESIGN PRINCIPLES
 
-Keep your infra boring. Your model is the complex part.
-Everything should run with make build && make bash.
-Don’t mix notebooks with pipelines unless you’re debugging.
-One repo = one pipeline = one purpose.
+- Keep your infra boring. Your model is the complex part.
+- Everything should run with make build && make bash.
+- Don’t mix notebooks with pipelines unless you’re debugging.
+- One repo = one pipeline = one purpose.
