@@ -85,7 +85,7 @@ This repo is considered ready for forking or cloning.
 
 Dummy pipeline and tests included for functional validation.
 
-- Next steps (optional):
+Next steps (optional):
 - Replace dummy model with your own
 - Add real config.yaml + .env
 - Plug into Flyte, MLflow, or CI/CD
